@@ -7,3 +7,5 @@ Project de Coddity pour la nuit de l'info par la team Intouchable
 #4 Enjoy  
   
 Toute les informations sur la création du siteweb est présent le wiki.
+
+Projet crée par Maxime Yonnet(DocR3D) et Damien Robert(Miidaen)
