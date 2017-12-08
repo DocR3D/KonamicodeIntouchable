@@ -29,10 +29,15 @@ function returnResponse() {
   // plain command vs starting with sudo
   var answer = getInput();
   var answer2 = "To have all the help write \'help\'";
-  if(answer=="help") answer2="Commands lists : help,win,sudo,sources'";
-  if(answer=="win") answer2="YEA YOU HAVE WIN";
+  if(answer=="help") answer2="Commands lists : help, win, sudo, sources, more, ls, credits'";
+  if(answer=="more") answer2="Use more to load a file";
+  if(answer=="ls") answer2="Answer, useless, ..,";
+  if(answer=="more Answer") answer2="You found the answer, write \"Nuit2info2017\"";
+  if(answer=="more useless") answer2="Nope that's useless.";
   if(answer=="sudo") answer2="You already have all the rights";
-  if(answer=="sources") answer2="Thanks to Giana  for this scripts, you can find it here :  https://codepen.io/giana/pen/XXzQOW"; 
+  if(answer=="sources") answer2="Thanks to Giana  for these scripts, you can find it here : https://codepen.io/giana/pen/XXzQOW"; 
+  if(answer=="Nuit2info2017") answer2="YOU HAVE WON";
+  if(answer=="credits") answer2="Maxime Yonnet - Intouchable";
   
   li.textContent = answer2;
 
