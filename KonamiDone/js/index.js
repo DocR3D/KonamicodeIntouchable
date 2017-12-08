@@ -36,7 +36,7 @@ function returnResponse() {
   if(answer=="more useless") answer2="Nope that's useless.";
   if(answer=="sudo") answer2="You already have all the rights";
   if(answer=="sources") answer2="Thanks to Giana  for these scripts, you can find it here : https://codepen.io/giana/pen/XXzQOW"; 
-  if(answer=="Nuit2info2017") answer2="YOU HAVE WON";
+  if(answer=="Nuit2info2017") window.location.href = "../victory/index.html";
   if(answer=="credits") answer2="Maxime Yonnet - Intouchable";
   
   li.textContent = answer2;
